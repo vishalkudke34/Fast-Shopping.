@@ -47,7 +47,7 @@ function display(product) {
             
             <div class = "review_card">
             <div class = "reviewHead">
-            <h2>${ele.reviewName}</h2>
+            <h2>${ele.reviewerName}</h2>
             <p>${"⭐".repeat(ele.rating)}</p>
             </div>
             <div>
