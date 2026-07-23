@@ -9,7 +9,7 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     height: 80px;
-    width: 100vw;
+    width: 100%;
     border: 2px solid black;
 }
 #logo{
@@ -128,13 +128,15 @@ box-shadow: 3px 3px 3px rgb(24, 129, 209);
     color: rgb(228, 216, 216);
     border-radius: 50px;
     font-size: 15px;
-    margin-left: 350px;
+    margin-left: 0;
   
 
 }
-<<<<<<< HEAD
+
 #aa{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-=======
->>>>>>> f3dedaf9f272c9dce729f48573621ba177fa3592
+
+   
