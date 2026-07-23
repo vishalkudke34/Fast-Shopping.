@@ -43,7 +43,7 @@ function display(product) {
         product.reviews.forEach((ele) => {
             console.log(ele);
 
-            reviews.innerHTML = `
+            reviews.innerHTML += `
             
             <div class = "review_card">
             <div class = "reviewHead">

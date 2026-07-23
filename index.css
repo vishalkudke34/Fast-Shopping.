@@ -110,13 +110,13 @@ box-shadow: 3px 3px 3px rgb(24, 129, 209);
 #popup{
     height: 50vh;
     width: 50vw;
-    background-color: rgb(216, 196, 255);
+    background-color: rgb(208, 204, 204);
     position: fixed;
     top: 200px;
     left: 350px;
     border-radius: 20px;
     padding: 30px;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     box-shadow: 5px 5px 5px rgb(209, 98, 98);
 }
@@ -124,9 +124,14 @@ box-shadow: 3px 3px 3px rgb(24, 129, 209);
 #btn{
     height: 30px;
     width: 100px;
-    background-color: red;
-    color: white;
+    background-color: rgb(238, 67, 67);
+    color: rgb(228, 216, 216);
     border-radius: 50px;
     font-size: 15px;
+    margin-left: 350px;
+  
 
+}
+#aa{
+    display: flex;
 }
