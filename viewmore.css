@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: rgba(199, 89, 45, 0.441);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    border: 2px solid black;
+}
+#logo{
+    height: 100%;
+    width: 120px;
+}
+#logo-box{
+    height: 100%;
+    width: 150px;
+    background-color: rgba(167, 238, 149, 0.823);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#searchcontainer{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+#searchcontainer > input {
+    height: 40px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 30px;
+
+
+
+}
+
+#link{
+height: 100%;
+width: 40px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 20px;
+
+}
+.box{
+    display: flex;
+    width: 90%;
+    margin: 40px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.leftBox{
+    width: 50%;
+    background-color: rgb(240, 222, 142);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.rightBox{
+    background-color: antiquewhite;
+    width: 50%;
+    padding: 30PX;
+    line-height: 1.8;
+}
+
+#para ~ button{
+background-color: rgb(248, 145, 146);
+width: 200px;
+border-radius: 20px;
+height: 40px;
+}
+
+.productTitle{
+    font-weight: bold;
+    color: blueviolet;
+}
+
+
+
+.reviewHead{
+    display: flex;
+}
+.review_Card{
+    background-color: greenyellow;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#newReview {
+    height: 60%;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#reviews{
+    height: 500px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px rgb(248, 145, 146);
+    background-color: antiquewhite;
+}
+
+#product ~ h1{
+    text-align: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: rgba(199, 89, 45, 0.441);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    border: 2px solid black;
+}
+#logo{
+    height: 100%;
+    width: 120px;
+}
+#logo-box{
+    height: 100%;
+    width: 150px;
+    background-color: rgba(167, 238, 149, 0.823);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#searchcontainer{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+#searchcontainer > input {
+    height: 20px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#lab{
+    font-size: medium;
+    margin: 0px;
+
+}
+
+#link{
+height: 100%;
+width: 40px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 20px;
+
+}
+#root{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 75px;
+    background-color: rgba(180, 239, 196, 0.6);
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.card{
+background-color: rgba(108, 233, 227, 0.879);
+height: 400px;
+width: 300px;
+border-radius: 20px;
+box-shadow: 3px 3px 3px rgb(24, 129, 209);
+}
+.img_container{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(232, 251, 214);
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.img_container > img{
+    height: 100%;
+    width: auto;
+   
+}
+
+#con{
+    font-style: italic;
+    font-size:12px;
+    margin-left: 20px;
+  
+}
+.viewcontainer{
+    height: 40px;
+    width: 100%;
+    background-color: rgba(204, 247, 31, 0.868);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+#popup{
+    height: 50vh;
+    width: 50vw;
+    background-color: rgb(216, 196, 255);
+    position: fixed;
+    top: 200px;
+    left: 350px;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px rgb(209, 98, 98);
+}
+
+#btn{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+
+}
